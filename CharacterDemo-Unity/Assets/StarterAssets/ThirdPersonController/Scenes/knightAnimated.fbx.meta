@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: dfc91305c3bb7d84aa3343e29088e45e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: KnightIdle
+  - first:
+      74: 7586811042859688730
+    second: KnightWalk
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #77
+    second: {fileID: 5629084884208175553, guid: fce3bf5a5b603db45ab0048fb6ab44df, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: KnightIdle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: KnightWalk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 30
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: knightAnimated(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: knightAnimated(Clone)
+      position: {x: -0, y: 0.6752562, z: -0.027825482}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pauldron_rt
+      parentName: knightAnimated(Clone)
+      position: {x: 0.15346405, y: 0.72302276, z: -0.08721501}
+      rotation: {x: 0.000000015454312, y: 0.7071067, z: -0.000000015454308, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: visor hinge
+      parentName: knightAnimated(Clone)
+      position: {x: -0.22459145, y: 1.0749493, z: -0.021313136}
+      rotation: {x: 0.000000015454312, y: 0.7071067, z: -0.000000015454308, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pauldron_lt
+      parentName: knightAnimated(Clone)
+      position: {x: -0.16432722, y: 0.72302276, z: -0.08721501}
+      rotation: {x: 0.7071068, y: 0.000000015454315, z: 0.7071067, w: -0.000000015454319}
+      scale: {x: -1, y: -1, z: -1}
+    - name: leg_upper_rt
+      parentName: knightAnimated(Clone)
+      position: {x: 0.1145732, y: 0.49979302, z: -0.10202714}
+      rotation: {x: -0.40159643, y: 0.7297507, z: 0.5054256, w: 0.2252315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_lower_rt
+      parentName: leg_upper_rt
+      position: {x: -0.0025386652, y: 0.0024907696, z: -0.19409746}
+      rotation: {x: -0.22941212, y: 0.36943027, z: 0.8375624, w: -0.3307274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_1_rt003
+      parentName: leg_lower_rt
+      position: {x: -0.002197952, y: -0.020124244, z: -0.2644967}
+      rotation: {x: 0.5035999, y: 0.10626466, z: 0.06990331, w: 0.85452247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_2_rt002
+      parentName: foot_1_rt003
+      position: {x: -0.00015397558, y: -0.073100485, z: 0.11865567}
+      rotation: {x: 5.820767e-11, y: 0.00000000478417, z: -2.7847534e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_3_rt002
+      parentName: foot_2_rt002
+      position: {x: 0.0001539877, y: -0.000030411631, z: 0.14116946}
+      rotation: {x: 5.820767e-11, y: 0.00000000478417, z: -2.7847534e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_upper_rt
+      parentName: knightAnimated(Clone)
+      position: {x: 0.30653444, y: 0.7454686, z: -0.10198209}
+      rotation: {x: -0.4563068, y: -0.26202965, z: 0.37289643, w: 0.76424664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_lower_rt
+      parentName: arm_upper_rt
+      position: {x: -0.009619907, y: -0.022179436, z: -0.18356767}
+      rotation: {x: -0.39045075, y: -0.09535038, z: -0.47535953, w: 0.78261733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_upper_lt
+      parentName: knightAnimated(Clone)
+      position: {x: -0.30059797, y: 0.7454686, z: -0.10198209}
+      rotation: {x: 0.76424664, y: -0.37289646, z: -0.2620295, w: 0.4563067}
+      scale: {x: -1, y: -1, z: -1}
+    - name: arm_lower_lt
+      parentName: arm_upper_lt
+      position: {x: -0.009619955, y: -0.02217946, z: -0.18356769}
+      rotation: {x: -0.39045078, y: -0.095350385, z: -0.4753596, w: 0.7826173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_upper_lt
+      parentName: knightAnimated(Clone)
+      position: {x: -0.11652129, y: 0.49979302, z: -0.10202712}
+      rotation: {x: 0.2252315, y: -0.5054256, z: 0.72975075, w: 0.40159637}
+      scale: {x: -1, y: -1, z: -1}
+    - name: leg_lower_lt
+      parentName: leg_upper_lt
+      position: {x: -0.0025386652, y: 0.0024907696, z: -0.1940975}
+      rotation: {x: -0.2294121, y: 0.36943027, z: 0.8375624, w: -0.3307274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_1_lt004
+      parentName: leg_lower_lt
+      position: {x: -0.0021979883, y: -0.020124232, z: -0.26449665}
+      rotation: {x: 0.5035999, y: 0.10626465, z: 0.069903284, w: 0.85452247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_2_lt003
+      parentName: foot_1_lt004
+      position: {x: -0.0001539877, y: -0.073100485, z: 0.11865566}
+      rotation: {x: 5.820766e-11, y: 0.0000000046036353, z: 2.3283064e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_3_lt003
+      parentName: foot_2_lt003
+      position: {x: 0.0001539877, y: -0.000030413144, z: 0.14116946}
+      rotation: {x: 5.820766e-11, y: 0.0000000046036353, z: 2.3283064e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KnightRig
+      parentName: knightAnimated(Clone)
+      position: {x: -0.0027196466, y: 0, z: -0.008618702}
+      rotation: {x: 0.50000006, y: -0.49999997, z: -0.49999997, w: 0.50000006}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Knight RigLLegPlatform
+      parentName: knightAnimated(Clone)
+      position: {x: -0.15327442, y: -0.0000000102442455, z: -0.071497485}
+      rotation: {x: 0.50000006, y: -0.49999997, z: -0.49999997, w: 0.50000006}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Knight RigRLegPlatform
+      parentName: knightAnimated(Clone)
+      position: {x: 0.14783515, y: -0.0000000102442534, z: -0.07149744}
+      rotation: {x: 0.50000006, y: -0.49999997, z: -0.49999997, w: 0.50000006}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: helmet visor
+      parentName: knightAnimated(Clone)
+      position: {x: 0.0013784372, y: 0.8713127, z: -0.014212985}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knight RigPelvis001
+      parentName: knightAnimated(Clone)
+      position: {x: 0.0028828958, y: 0.65129864, z: 0.0665565}
+      rotation: {x: 0.49037647, y: -0.4955262, z: -0.50944334, w: 0.5044326}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Knight RigLArmCollarbone
+      parentName: Knight RigPelvis001
+      position: {x: -0.11141225, y: -0.022840641, z: 0.14506803}
+      rotation: {x: -0.000000029802326, y: 0.7071068, z: 0.000000045958163, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Knight RigLArm1
+      parentName: Knight RigLArmCollarbone
+      position: {x: -0.15055479, y: -0.0000000060558327, z: -0.000000048446665}
+      rotation: {x: 0.30234924, y: -0.46887314, z: 0.32258344, w: 0.7646455}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000012}
+    - name: Knight RigLArm2
+      parentName: Knight RigLArm1
+      position: {x: -0.2022986, y: -0.000000024223327, z: 0}
+      rotation: {x: -0.05447325, y: -0.09060979, z: -0.14300945, w: 0.9840584}
+      scale: {x: 1.0000002, y: 0.99999934, z: 1.0000002}
+    - name: Knight RigLArmPalm
+      parentName: Knight RigLArm2
+      position: {x: -0.17907894, y: 0, z: 0}
+      rotation: {x: -0.16858874, y: -0.0069910353, z: -0.017992636, w: 0.9854975}
+      scale: {x: 0.9999971, y: 0.99999994, z: 1.0000002}
+    - name: Knight RigLArmDigit11
+      parentName: Knight RigLArmPalm
+      position: {x: -0.017442515, y: -0.029313276, z: 0.03708405}
+      rotation: {x: -0.5519703, y: -0.66128916, z: -0.441358, w: 0.25145322}
+      scale: {x: 0.99999595, y: 1.0000002, z: 0.99999756}
+    - name: Knight RigLArmDigit12
+      parentName: Knight RigLArmDigit11
+      position: {x: -0.07527742, y: -0.0000000060558327, z: 0}
+      rotation: {x: 0.012178127, y: 0.013892373, z: 0.18015935, w: 0.983464}
+      scale: {x: 0.99999356, y: 0.99999803, z: 0.9999941}
+    - name: Knight RigLArmDigit21
+      parentName: Knight RigLArmPalm
+      position: {x: -0.112915784, y: -0.000000024223327, z: 0.000000024223327}
+      rotation: {x: -0.11476742, y: 0.41269296, z: -0.036631733, w: 0.9028683}
+      scale: {x: 0.99999684, y: 0.99999946, z: 0.9999972}
+    - name: Knight RigLArmDigit22
+      parentName: Knight RigLArmDigit21
+      position: {x: -0.052694153, y: 0.000000024223327, z: -0.000000024223327}
+      rotation: {x: 0.000001531094, y: 0.0000008596105, z: 0.15545116, w: 0.9878436}
+      scale: {x: 0.9999935, y: 0.99999964, z: 0.9999937}
+    - name: Knight RigRArmCollarbone
+      parentName: Knight RigPelvis001
+      position: {x: -0.11141225, y: -0.022840653, z: -0.145068}
+      rotation: {x: -0.00000014841115, y: 0.7071068, z: -0.00000008940697, w: -0.7071067}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+    - name: Knight RigRArm1
+      parentName: Knight RigRArmCollarbone
+      position: {x: -0.14226769, y: 0.0000000060558327, z: 0.000000048446665}
+      rotation: {x: -0.09529966, y: -0.34572464, z: 0.19534804, w: 0.9128152}
+      scale: {x: 1.000001, y: 0.9999999, z: 1.0000014}
+    - name: Knight RigRArm2
+      parentName: Knight RigRArm1
+      position: {x: -0.21148498, y: 0.000000024223327, z: 0}
+      rotation: {x: -0.0024160445, y: -0.08013779, z: -0.43802795, w: 0.8953791}
+      scale: {x: 0.9999973, y: 0.99999845, z: 0.99999946}
+    - name: Knight RigRArmPalm
+      parentName: Knight RigRArm2
+      position: {x: -0.17487602, y: -0.0000000121116654, z: 0}
+      rotation: {x: 0.16858819, y: 0.006991214, z: -0.017992381, w: 0.9854976}
+      scale: {x: 0.9999852, y: 0.99999934, z: 1.00001}
+    - name: Knight RigRArmDigit11
+      parentName: Knight RigRArmPalm
+      position: {x: -0.017442273, y: -0.029313302, z: -0.037084356}
+      rotation: {x: -0.8849767, y: -0.46478975, z: -0.0030170158, w: -0.027888887}
+      scale: {x: 0.9999543, y: 1.0000085, z: 1.0000197}
+    - name: Knight RigRArmDigit12
+      parentName: Knight RigRArmDigit11
+      position: {x: -0.075277366, y: 0, z: 0.000000024223327}
+      rotation: {x: -0.012181094, y: -0.0138919875, z: 0.1801597, w: 0.9834639}
+      scale: {x: 0.99993056, y: 0.9999942, z: 1.00005}
+    - name: Knight RigRArmDigit21
+      parentName: Knight RigRArmPalm
+      position: {x: -0.1129144, y: 0, z: -0.000000024223327}
+      rotation: {x: 0.048052654, y: 0.008266142, z: 0.1693478, w: 0.9843495}
+      scale: {x: 0.9999641, y: 0.9999992, z: 1.0000203}
+    - name: Knight RigRArmDigit22
+      parentName: Knight RigRArmDigit21
+      position: {x: -0.05269418, y: 0, z: 0}
+      rotation: {x: 0.0000011958182, y: -0.0000012721866, z: 0.15545143, w: 0.98784363}
+      scale: {x: 0.9999244, y: 1.000002, z: 1.0000403}
+    - name: Knight RigRLeg1
+      parentName: Knight RigPelvis001
+      position: {x: 0.10039091, y: -0.06661077, z: -0.11291616}
+      rotation: {x: -0.12008779, y: 0.99200946, z: 0.00059923524, w: -0.038676243}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000012}
+    - name: Knight RigRLeg2
+      parentName: Knight RigRLeg1
+      position: {x: -0.2613924, y: -0.00000005450248, z: 0}
+      rotation: {x: -0.003175459, y: -0.009045728, z: 0.34891188, w: 0.9371065}
+      scale: {x: 0.99999785, y: 0.9999973, z: 0.99999994}
+    - name: Knight RigRLegAnkle
+      parentName: Knight RigRLeg2
+      position: {x: -0.24669191, y: -0.0000000121116654, z: 0.0000000121116654}
+      rotation: {x: -0.0047003413, y: -0.028265785, z: -0.7748865, w: 0.6314507}
+      scale: {x: 1.0000043, y: 0.9999982, z: 1.0000025}
+    - name: Knight RigRLegDigit11
+      parentName: Knight RigRLegAnkle
+      position: {x: -0.2709987, y: 0, z: 0}
+      rotation: {x: 0.000032479056, y: -0.0002401266, z: -0.13429661, w: 0.9909412}
+      scale: {x: 0.99999875, y: 0.9999962, z: 1.0000002}
+    - name: Knight RigLLeg1
+      parentName: Knight RigPelvis001
+      position: {x: 0.10039091, y: -0.06661079, z: 0.11291618}
+      rotation: {x: -0.11802301, y: 0.99243134, z: -0.0015735624, w: 0.033885624}
+      scale: {x: 0.9999996, y: 1, z: 1}
+    - name: Knight RigLLeg2
+      parentName: Knight RigLLeg1
+      position: {x: -0.26139265, y: -0.00000006661414, z: -0.000000024223327}
+      rotation: {x: 0.0017407357, y: 0.012174184, z: 0.3483064, w: 0.9373001}
+      scale: {x: 0.99999744, y: 0.9999996, z: 1.0000006}
+    - name: Knight RigLLegAnkle
+      parentName: Knight RigLLeg2
+      position: {x: -0.24668896, y: 0, z: 0}
+      rotation: {x: -0.021708766, y: 0.019477181, z: -0.7752982, w: 0.6309217}
+      scale: {x: 0.99999803, y: 1.000002, z: 1.0000013}
+    - name: Knight RigLLegDigit11
+      parentName: Knight RigLLegAnkle
+      position: {x: -0.2709987, y: -0.0000000121116654, z: -0.0000000121116654}
+      rotation: {x: -0.00003246776, y: 0.00023993099, z: -0.1342967, w: 0.99094117}
+      scale: {x: 0.99999666, y: 0.99999815, z: 0.99999994}
+    - name: Knight RigSpine
+      parentName: Knight RigPelvis001
+      position: {x: -0.15194851, y: 0.050972797, z: -0.000000007759034}
+      rotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Knight RigHeadHub
+      parentName: Knight RigSpine
+      position: {x: -0.22583215, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: helmet
+      parentName: Knight RigHeadHub
+      position: {x: -0.09902836, y: -0.004478598, z: -0.0037898906}
+      rotation: {x: 0.7106209, y: -0.009841148, z: -0.7034361, w: 0.009939264}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
